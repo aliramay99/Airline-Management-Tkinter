@@ -1,0 +1,58 @@
+import tkinter as tk
+from tkinter import ttk, messagebox
+import sqlite3
+
+DB_NAME = "airline.db"
+
+def init_flights():
+    """Create flights table and sample data if not exists."""
+    with sqlite3.connect(DB_NAME) as conn:
+        cursor = conn.cursor()
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS flights (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                airline TEXT NOT NULL,
+                flight_no TEXT NOT NULL,
+                origin TEXT NOT NULL,
+                destination TEXT NOT NULL,
+                date TEXT NOT NULL,
+                time TEXT NOT NULL
+            )
+        """)
+        # Sample data insertion (run once)
+        cursor.execute("SELECT COUNT(*) FROM flights")
+        if cursor.fetchone()[0] == 0:
+            cursor.executemany("""
+                INSERT INTO flights (airline, flight_no, origin, destination, date, time)
+                VALUES (?, ?, ?, ?, ?, ?)
+            """, [
+                ("AirBlue", "AB101", "Lahore", "Karachi", "2025-07-25", "09:00"),
+                ("PIA", "PK202", "Islamabad", "Lahore", "2025-07-26", "14:30"),
+                ("SereneAir", "SA303", "Karachi", "Multan", "2025-07-27", "18:45"),
+            ])
+            conn.commit()
+
+def fetch_flights():
+    with sqlite3.connect(DB_NAME) as conn:
+        cursor = conn.cursor()
+        cursor.execute("SELECT * FROM flights")
+        return cursor.fetchall()
+
+def launch_flight_page():
+    init_flights()
+
+    win = tk.Toplevel()
+    win.title("Available Flights")
+    win.geometry("800x400")
+
+    tk.Label(win, text="✈️ Available Flights", font=("Arial", 16)).pack(pady=10)
+
+    columns = ("ID", "Airline", "Flight No", "From", "To", "Date", "Time")
+    tree = ttk.Treeview(win, columns=columns, show="headings")
+    for col in columns:
+        tree.heading(col, text=col)
+        tree.column(col, width=100)
+    tree.pack(fill="both", expand=True, padx=10, pady=10)
+
+    for row in fetch_flights():
+        tree.insert("", "end", values=row)
