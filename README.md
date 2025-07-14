@@ -1,1 +1,0 @@
-Tkinter project for OSSD.
