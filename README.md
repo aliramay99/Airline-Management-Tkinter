@@ -147,6 +147,8 @@ pip install -r requirements.txt
 
 # Run the main application
 python main.py
+---
+
 ✅ No internet or external API required — the app is fully local and self-contained.
 
 
