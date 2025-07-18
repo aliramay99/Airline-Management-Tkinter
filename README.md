@@ -72,6 +72,7 @@ Simulates essential functions an airline clerk or admin would perform in a real-
 
 ---
 ## 🖥️ Interface Preview   
+Below are snapshots of working modules. All functionality is live and running in the .py scripts.
 
 ### 🏠 Main Window  
 - Central navigation screen  
@@ -83,6 +84,7 @@ Simulates essential functions an airline clerk or admin would perform in a real-
 ### 🛫 Available Flight  
 - Input fields for flight number, name, route, and date  
 - Data saved directly into SQLite
+  
 ![availableflight](gui/preview/availableflight.png)
 
 ---
@@ -113,18 +115,39 @@ Simulates essential functions an airline clerk or admin would perform in a real-
 
 ---
 **ADMIN** can delete **INFO** 
+
 ![admindelete](gui/preview/admindelete.png)
 
 ---
 **ADMIN** can edit **Passenger INFO**
+
 ![admineditinfo](gui/preview/editinfo.png)
 
 ---
 
 **ADMIN** can edit **Flight INFO**
+
 ![admineditinfo](gui/preview/editinfo.png)
 
 ---
+
+## 🚀 Setup & Run Instructions  
+
+### 🔧 Requirements  
+- Python 3.x installed  
+- `pip` package manager available  
+
+### 📦 Installation & Execution  
+Open your terminal or command prompt and run the following commands:
+
+```bash
+git clone https://github.com/Musman3739/Airline-Management-Tkinter.git
+cd Airline-Management-Tkinter
+pip install -r requirements.txt
+
+# Run the main application
+python main.py
+✅ No internet or external API required — the app is fully local and self-contained.
 
 
 
