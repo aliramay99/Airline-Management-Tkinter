@@ -152,6 +152,7 @@ python main.py ```
 
 -----
 ```
+-----
 # 🧩 Codebase Structure
 ```
 Airline-Management-Tkinter/
