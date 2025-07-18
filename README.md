@@ -151,6 +151,19 @@ python main.py
 
 ✅ No internet or external API required — the app is fully local and self-contained.
 
+-----
+## 🧩 Codebase Structure
+Airline-Management-Tkinter/
+│
+├── main.py               # Main window with navigation  
+├── book_ticket.py        # Book Ticket module  
+├── view_bookings.py      # View/Delete bookings  
+├── add_flight.py         # Admin flight entry  
+├── database.py           # SQLite logic  
+└── airline.db            # SQLite database file  
+---
+
+
 
 
 
