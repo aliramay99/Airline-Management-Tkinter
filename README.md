@@ -163,10 +163,44 @@ Airline-Management-Tkinter/
 ├── add_flight.py         # Admin flight entry  
 ├── database.py           # SQLite logic  
 └── airline.db            # SQLite database file  ```
+```
+## 👥 Contributor Credits
 
+| Contributor             | Role                             | Major Contributions                                                                                             |
+|-------------------------|----------------------------------|------------------------------------------------------------------------------------------------------------------|
+| [**Ali Hassan**](https://github.com/aliramay99) | Lead Engineer & Architect      | Project lead — complete backend logic, Main Window,Book ticket, Admin Panel, GUI functionality, repo, docs, packaging |
+| [**M.Usman**](https://github.com/Musman3739)    | UI/UX Designer & Frontend Lead | Designed UI ,  contributed idea: Airline Management System                          |
+| [**Subhan Malik**](https://github.com/)  | Backend Helper &  | Helped with DB integration (SQl Lite)                                          |
+| [**Ali Husnain**](https://github.com/alihussnainhafeez)      | Support Developer              | Contributed ideas for DecisionDiceRoom, assisted with minor frontend and functionality tweaks                 |
+
+
+
+## 🌍 Vision
+
+The **Airline Management System** aims to provide a simple, efficient, and user-friendly platform for managing basic airline operations such as flight scheduling, ticket booking, and passenger records — all within a standalone desktop application.
+
+Designed primarily for educational and small-scale use cases, the system focuses on:
+
+- ✈️ Simplifying complex airline workflows into easy-to-use modules  
+- 🧠 Teaching students real-world CRUD operations using Python and SQLite  
+- 🧩 Offering a modular and extendable codebase for learning and customization  
+- 🔒 Enabling offline functionality to ensure accessibility in low-resource environments
+
+Our long-term vision is to grow this into a full-featured educational platform where learners and developers can experiment, enhance, and deploy their own versions of airline management tools — both for practice and practical use.
+
+
+## 📜 License
+MIT License — use, contribute, remix freely.
 
 ---
 
+<p align="center">
+  <sub><i>Crafted for clarity. Designed for flow.</i></sub>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Built%20by-SyncMind%20Team-2c3e50?style=for-the-badge&logo=python&logoColor=white" alt="Built by SyncMind Team"/>
+</p>
 
 
 
