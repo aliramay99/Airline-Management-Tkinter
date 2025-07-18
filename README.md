@@ -174,7 +174,7 @@ Airline-Management-Tkinter/
 | [**Ali Husnain**](https://github.com/alihussnainhafeez)      | Support Developer              | Contributed ideas for DecisionDiceRoom, assisted with minor frontend and functionality tweaks                 |
 
 
-
+------
 ## 🌍 Vision
 
 The **Airline Management System** aims to provide a simple, efficient, and user-friendly platform for managing basic airline operations such as flight scheduling, ticket booking, and passenger records — all within a standalone desktop application.
@@ -188,6 +188,7 @@ Designed primarily for educational and small-scale use cases, the system focuses
 
 Our long-term vision is to grow this into a full-featured educational platform where learners and developers can experiment, enhance, and deploy their own versions of airline management tools — both for practice and practical use.
 
+------
 
 ## 📜 License
 MIT License — use, contribute, remix freely.
