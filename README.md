@@ -76,11 +76,14 @@ Simulates essential functions an airline clerk or admin would perform in a real-
 ### 🏠 Main Window  
 - Central navigation screen  
 - Buttons to all functional pages: Book Ticket, View Bookings, Add Flight
+  
 ![MianWindow](gui/preview/main.png)
 
 ### 🎟️ Book Ticket  
 - Form to input passenger and flight details  
-- Stores data in SQLite and shows success message  
+- Stores data in SQLite and shows success message
+
+![bookingticket](gui/preview/bookticket.png)
 
 ### 📄 View Bookings  
 - Displays all bookings in a scrollable list  
