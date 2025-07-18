@@ -80,6 +80,12 @@ Simulates essential functions an airline clerk or admin would perform in a real-
 ![MianWindow](gui/preview/main.png)
 
 ---
+### 🛫 Available Flight  
+- Input fields for flight number, name, route, and date  
+- Data saved directly into SQLite
+![availableflight](gui/preview/availableflight.png)
+
+
 ### 🎟️ Book Ticket  
 - Form to input passenger and flight details  
 - Stores data in SQLite and shows success message
@@ -93,9 +99,9 @@ Simulates essential functions an airline clerk or admin would perform in a real-
 - Clean and readable layout  
 
 ![viewbooking](gui/preview/viewbooking.png)
-### 🛫 Add Flight  
-- Input fields for flight number, name, route, and date  
-- Data saved directly into SQLite
+
+
+
 
 ### 🔐 Login Page
 - Simple UI with username/password validation  
