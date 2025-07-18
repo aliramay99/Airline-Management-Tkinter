@@ -85,6 +85,8 @@ Simulates essential functions an airline clerk or admin would perform in a real-
 - Data saved directly into SQLite
 ![availableflight](gui/preview/availableflight.png)
 
+---
+
 
 ### 🎟️ Book Ticket  
 - Form to input passenger and flight details  
@@ -105,7 +107,22 @@ Simulates essential functions an airline clerk or admin would perform in a real-
 
 ### 🔐 Login Page
 - Simple UI with username/password validation  
-- Only authenticated access to admin features 
+- Only authenticated access to admin features
+
+![loginpage](gui/preview/adminlogin.png)
+
+---
+**ADMIN** can delete **INFO** 
+![admindelete](gui/preview/admindelete.png)
+
+---
+**ADMIN** can edit **Passenger INFO**
+![admineditinfo](gui/preview/editinfo.png)
+
+---
+
+**ADMIN** can edit **Flight INFO**
+![admineditinfo](gui/preview/editinfo.png)
 
 ---
 
