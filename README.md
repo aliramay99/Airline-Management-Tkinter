@@ -169,8 +169,8 @@ Airline-Management-Tkinter/
 | Contributor             | Role                             | Major Contributions                                                                                             |
 |-------------------------|----------------------------------|------------------------------------------------------------------------------------------------------------------|
 | [**Ali Hassan**](https://github.com/aliramay99) | Lead Engineer & Architect      | Project lead — complete backend logic, Main Window,Book ticket, Admin Panel, GUI functionality, repo, docs, packaging |
-| [**M.Usman**](https://github.com/Musman3739)    | UI/UX Designer & Frontend Lead | Designed UI ,  contributed idea: Airline Management System                          |
-| [**Subhan Malik**](https://github.com/)  | Backend Helper &  | Helped with DB integration (SQl Lite)                                          |
+| [**Ali Hassan**](https://github.com/aliramay99)    | UI/UX Designer & Frontend Lead | Designed UI ,  contributed idea: Airline Management System                          |
+| [**M.Usman**](https://github.com/Musman3739)  | Backend Helper &  | Helped with DB integration (SQl Lite)                                          |
 | [**Ali Husnain**](https://github.com/alihussnainhafeez)      | Support Developer              | Contributed ideas for DecisionDiceRoom, assisted with minor frontend and functionality tweaks                 |
 
 
@@ -199,7 +199,7 @@ MIT License — use, contribute, remix freely.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Built%20by-SyncMind%20Team-2c3e50?style=for-the-badge&logo=python&logoColor=white" alt="Built by SyncMind Team"/>
+  <img src="https://img.shields.io/badge/Built%20by-AMS%20Team-2c3e50?style=for-the-badge&logo=python&logoColor=white" alt="BUILT BY AMS"/>
 </p>
 
 
