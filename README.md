@@ -151,6 +151,7 @@ python main.py ```
 ✅ No internet or external API required — the app is fully local and self-contained.
 
 -----
+```
 # 🧩 Codebase Structure
 ```
 Airline-Management-Tkinter/
@@ -161,6 +162,8 @@ Airline-Management-Tkinter/
 ├── add_flight.py         # Admin flight entry  
 ├── database.py           # SQLite logic  
 └── airline.db            # SQLite database file  ```
+
+
 ---
 
 
