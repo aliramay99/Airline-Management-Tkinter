@@ -56,6 +56,21 @@ Clear naming, straightforward layout management, and organized folder structure 
 Simulates essential functions an airline clerk or admin would perform in a real-world system.
 
 ---
+## 🛤️ Roadmap
+
+| **Status** | **Feature**                                                                 |
+|------------|------------------------------------------------------------------------------|
+| ✅         | **Admin Login System** — Secure login window with validation                 |
+| ✅         | **Main Window Navigation** — Links to Book Ticket, Add Flight, and View Bookings |
+| ✅         | **Add Flight Module** — Insert flight data into DB                           |
+| ✅         | **Book Ticket Module** — Take passenger details and store bookings           |
+| ✅         | **View Bookings** — Display, search, and delete booking records              |
+| 🔜         | **Flight Availability Checker** — Show available flights by date             |
+| 🔜         | **Printable Tickets** — Generate a PDF or print preview after booking        |
+| 🔜         | **Sorting & Filtering Bookings** — Filter by flight, date, or passenger name |
+| 🔜         | **Admin Panel Enhancements** — Dashboard stats, export data, etc.            |
+
+---
 
 
 
