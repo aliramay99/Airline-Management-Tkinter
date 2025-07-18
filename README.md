@@ -71,6 +71,32 @@ Simulates essential functions an airline clerk or admin would perform in a real-
 | 🔜         | **Admin Panel Enhancements** — Dashboard stats, export data, etc.            |
 
 ---
+## 🖥️ Interface Preview   
+
+### 🏠 Main Window  
+- Central navigation screen  
+- Buttons to all functional pages: Book Ticket, View Bookings, Add Flight
+![MianWindow](gui/preview/main.png)
+
+### 🎟️ Book Ticket  
+- Form to input passenger and flight details  
+- Stores data in SQLite and shows success message  
+
+### 📄 View Bookings  
+- Displays all bookings in a scrollable list  
+- Option to delete individual bookings  
+- Clean and readable layout  
+
+### 🛫 Add Flight  
+- Input fields for flight number, name, route, and date  
+- Data saved directly into SQLite
+
+### 🔐 Login Page
+- Simple UI with username/password validation  
+- Only authenticated access to admin features 
+
+---
+
 
 
 
