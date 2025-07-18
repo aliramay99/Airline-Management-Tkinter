@@ -171,7 +171,7 @@ Airline-Management-Tkinter/
 | [**Ali Hassan**](https://github.com/aliramay99) | Lead Engineer & Architect      | Project lead — complete backend logic, Main Window,Book ticket, Admin Panel, GUI functionality, repo, docs, packaging |
 | [**Ali Hassan**](https://github.com/aliramay99)    | UI/UX Designer & Frontend Lead | Designed UI ,  contributed idea: Airline Management System                          |
 | [**M.Usman**](https://github.com/Musman3739)  | Backend Helper &  | Helped with DB integration (SQl Lite)                                          |
-| [**Ali Husnain**](https://github.com/alihussnainhafeez)      | Support Developer              | Contributed ideas for DecisionDiceRoom, assisted with minor frontend and functionality tweaks                 |
+
 
 
 ------
