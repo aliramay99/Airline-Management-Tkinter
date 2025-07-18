@@ -146,13 +146,13 @@ cd Airline-Management-Tkinter
 pip install -r requirements.txt
 
 # Run the main application
-python main.py
----
+python main.py ```
 
 ✅ No internet or external API required — the app is fully local and self-contained.
 
 -----
-## 🧩 Codebase Structure
+# 🧩 Codebase Structure
+```
 Airline-Management-Tkinter/
 │
 ├── main.py               # Main window with navigation  
@@ -160,7 +160,7 @@ Airline-Management-Tkinter/
 ├── view_bookings.py      # View/Delete bookings  
 ├── add_flight.py         # Admin flight entry  
 ├── database.py           # SQLite logic  
-└── airline.db            # SQLite database file  
+└── airline.db            # SQLite database file  ```
 ---
 
 
