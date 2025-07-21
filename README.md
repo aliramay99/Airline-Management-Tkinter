@@ -127,7 +127,7 @@ Below are snapshots of working modules. All functionality is live and running in
 
 **ADMIN** can edit **Flight INFO**
 
-![admineditinfo](gui/preview/editinfo.png)
+![editflightinfo](gui/preview/editinfo.png)
 
 ---
 
