@@ -169,8 +169,9 @@ Airline-Management-Tkinter/
 | Contributor             | Role                             | Major Contributions                                                                                             |
 |-------------------------|----------------------------------|------------------------------------------------------------------------------------------------------------------|
 | [**Ali Hassan**](https://github.com/aliramay99) | Lead Engineer & Architect      | Project lead — complete backend logic, Main Window,Book ticket, Admin Panel, GUI functionality, repo, docs, packaging |
-| [**Ali Hassan**](https://github.com/aliramay99)    | UI/UX Designer & Frontend Lead | Designed UI ,  contributed idea: Airline Management System                          |
-| [**M.Usman**](https://github.com/Musman3739)  | Backend Helper &  | Helped with DB integration (SQl Lite)                                          |
+| [**Ali Hassan**](https://github.com/aliramay99)    | UI/UX Designer & Frontend Lead | Designed UI , Navigation                         |
+| [**M.Usman**](https://github.com/Musman3739)  | Backend Helper  | Helped with DB integration (SQl Lite)                                          |
+| [**khadija Saif & Zahra saif**](https://github.com/khadija-1122)  | view booking Helper  | Helped with view bookings page,   Available Flight page                                 |
 
 
 
